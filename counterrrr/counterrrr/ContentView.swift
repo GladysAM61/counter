@@ -51,6 +51,10 @@ struct ContentView: View {
     func Increment(){
 //        adding one to the count
         count += 1
+//        stoppint it from reaching over 50by using an if statement
+        if count == 51{
+             count -= 1
+        }
     }
     //    created a function to decrement the count
     func Decrement(){
